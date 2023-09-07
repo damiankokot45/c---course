@@ -3,12 +3,16 @@
 #include <algorithm>
 
 int main(){
-    std::vector<int>liczby={21,32,33,46,85,26,327,8221,931};
+
+    std::vector<int>liczby={132232,23,34,232356,123,223,2133,3,1,1,1,1292};
 
     std::sort(liczby.begin(),liczby.end());
-    for (int liczba : liczby){
-        std::cout<<liczba<<std::endl;
+
+    for(int liczba : liczby){
+
+        std::cout<<liczba<<" ";
     }
 
     return 0;
+
 }
