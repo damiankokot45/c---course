@@ -8,4 +8,10 @@ int main(){
         std::cout<<liczby[i]<<" ";
     }
     
+    int tab[5];
+    for (int i = 0; i < 5; i++)
+    {
+        tab[i]-2*i;
+    }
+    
 }
