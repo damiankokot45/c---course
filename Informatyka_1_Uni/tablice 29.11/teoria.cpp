@@ -14,4 +14,8 @@ int main(){
         tab[i]-2*i;
     }
     
+    for (int i = 0; i < 6; i++)
+    {
+        std::cout<<tab[i]<<" ";
+    }
 }
