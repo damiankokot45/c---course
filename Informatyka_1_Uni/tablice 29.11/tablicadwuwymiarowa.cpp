@@ -6,7 +6,7 @@ int main(){
 
     //jak sie odwołać do 4?
 
-    std::cout<<tab2D[0][1]<<std::endl;
+    std::cout<<tab2D[1][0]<<std::endl;
 
     for (int w = 0; w < 2; w++)
     {
