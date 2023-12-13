@@ -1,0 +1,37 @@
+Sprawdz sizeof(tab)/sizeof(int); Sprawdza rozmiar tablicy.
+//Funkcje. Napisz taką funckje.
+//Napisz funckje MAX MIN.
+
+
+Liczba elemtnów = liczba wierszy * liczba kolumn
+
+Wiersze=liczba elemntów/liczba kolumn
+
+//Rekurencja
+
+long silnia(ling n)
+    if(n==0){
+        return 1;
+    }
+    else if(n==1){
+        return 1;
+    }
+    else{
+        return n*silnia(n-1);
+    }
+
+//Koniec Rekurencja
+
+???///Return 0;---->Kończy funckje 
+
+!!!???!!!Będzie zadanie z rekurencji!!!??!!!
+
+st14,15,16.
+
+Za tydzien zaliczenie z tego
+
+
+//zaliczenie za tydzien prawdopodobnie będzie
+przekazywanie tablic
+Rekurencja
+przekazywanie 2 wymiarowej tablicu
